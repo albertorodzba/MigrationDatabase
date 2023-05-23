@@ -1,0 +1,25 @@
+scaffolding from console project
+
+dotnet ef dbcontext scaffold "server=localhost;Port=3306;database=helperSystem;user=root;password=Nem02183330156" MySql.EntityFrameworkCore --output-dir Models
+"-f" to overwrite
+
+export .sql
+mysqldump -u root -p helpersystem > /Users/admin/Desktop/Development/migrationdatabase/Files/utilQuerys/database_backup_17_May_2023_2.sql
+
+import .sql
+mysql -u root -p helpersystem < /Users/admin/Desktop/Development/migrationdatabase/Files/utilQuerys/database_backup_17_May_2023.sql
+
+
+
+
+to make a column nullable 
+ALTER TABLE Merchant_Pending_Functions MODIFY NumberOfLocations INT NULL
+
+****NOTES
+restore the database on mac
+--Tienes que guardar informacion del Cliente
+--Guardarla en desired job
+--applicant workhour
+--applicant activity
+
+--checar los autoincrement
