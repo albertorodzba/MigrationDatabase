@@ -2830,24 +2830,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/admin/.nuget/packages/": {}
+    "C:\\Users\\Alberto Rodriguez\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/admin/Desktop/Development/migrationdatabase/migrationdatabase.csproj",
+      "projectUniqueName": "D:\\Programming\\MyProjects\\Helper\\MigrationDatabase\\migrationdatabase.csproj",
       "projectName": "migrationdatabase",
-      "projectPath": "/Users/admin/Desktop/Development/migrationdatabase/migrationdatabase.csproj",
-      "packagesPath": "/Users/admin/.nuget/packages/",
-      "outputPath": "/Users/admin/Desktop/Development/migrationdatabase/obj/",
+      "projectPath": "D:\\Programming\\MyProjects\\Helper\\MigrationDatabase\\migrationdatabase.csproj",
+      "packagesPath": "C:\\Users\\Alberto Rodriguez\\.nuget\\packages\\",
+      "outputPath": "D:\\Programming\\MyProjects\\Helper\\MigrationDatabase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/admin/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Alberto Rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2897,7 +2899,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
